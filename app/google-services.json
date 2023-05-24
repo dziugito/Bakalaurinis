@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44408473644",
+    "project_id": "draudiminiai-ivykiai",
+    "storage_bucket": "draudiminiai-ivykiai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44408473644:android:d1d3ec5f909f9b2e776989",
+        "android_client_info": {
+          "package_name": "com.example.draudiminiai_ivykiai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44408473644-qcrmog6fi1jvem85s5q05l0ta7qogjqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAMK5ogCIHAWv_PzHOdwxA8Ia_LKgNvb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44408473644-qcrmog6fi1jvem85s5q05l0ta7qogjqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

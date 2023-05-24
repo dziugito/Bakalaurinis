@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/pastasP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vartotojo vardas"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:id="@+id/slaptazodisP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slaptažodis"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/pastasP"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/prisijungti_mygtukas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Prisijungti"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@+id/slaptazodisP" />
+
+    <Button
+        android:id="@+id/registruotis_mygtukas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Registruotis"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
+        android:layout_below="@+id/prisijungti_mygtukas"/>
+
+</RelativeLayout>

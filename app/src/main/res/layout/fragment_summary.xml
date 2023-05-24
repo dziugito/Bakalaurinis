@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryFragment">
+
+
+    <TextView
+        android:id="@+id/markeModelisT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Markė, modelis:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/valstybinisNrT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Valst. Nr.:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/identifikacinisNrT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Identifikacinis Nr.:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="135dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/registracijosMetaiT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="Registracijos metai:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="145dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ridaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Rida:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="48dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/kuroRusisT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuro tipas:"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="85dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/savininkasT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transporto priemonės sąvininkas:"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="240dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/laikasT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įvykio laikas:"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dataT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įvykio data:"
+        android:layout_marginTop="260dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vietaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įvykio vieta:"
+        android:layout_marginTop="290dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="93dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nuotraukaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įvykio nuotrauka:"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/dalysT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įvykyje apgadintos dalys:"
+        android:layout_marginTop="500dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="180dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <Button
+        android:id="@+id/registravimoIrApskaiciavimoM"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Registruoti"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="100dp"/>
+
+    <CheckBox
+        android:id="@+id/sutikimas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sutinku, kad pateikta informacija yra teisinga"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:id="@+id/userioMasinosId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/urlId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+</FrameLayout>

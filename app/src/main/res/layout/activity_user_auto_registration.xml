@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAutoRegistration">
+
+    <EditText
+        android:id="@+id/identifikacinisNumeris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="17" />
+
+    <EditText
+        android:id="@+id/valstybinisNumeris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/identifikacinisNumeris"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:maxLength="6" />
+
+    <Spinner
+        android:id="@+id/modelisSpinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/markeSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/metaiSpinner"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/modelisSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/kebulasSpinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/metaiSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/kuroTipasSpinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/kebulasSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/pavaruDezeSpinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/kuroTipasSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/kebulast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/metait"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Kėbulo tipas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/kuroTipasT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kebulast"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Kuro tipas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pavaruDezeT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kuroTipasT"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Pavarų dėžė"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/metait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modelist"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Metai"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/modelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/market"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Modelis"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/valstybinis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Markė"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/valstybinis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Valstybinis"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/vin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="VIN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/markeSpinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/valstybinisNumeris"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10" />
+
+    <CheckBox
+        android:id="@+id/labaiGeraBukle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/kilometrazas"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="Labai gera" />
+
+    <EditText
+        android:id="@+id/kilometrazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pavaruDezeSpinner"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/kilometrazast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pavaruDezeT"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="260dp"
+        android:ems="10"
+        android:text="Kilometražas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/buklet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kilometrazast"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="256dp"
+        android:ems="10"
+        android:text="Automobilio techninė ir kosmetinė būklė"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/vidutineBukle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/geraBukle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="Vidutinė" />
+
+    <CheckBox
+        android:id="@+id/blogaBukle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/vidutineBukle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="Bloga" />
+
+    <CheckBox
+        android:id="@+id/labaiBlogaBukle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/blogaBukle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="Labai bloga" />
+
+    <CheckBox
+        android:id="@+id/geraBukle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/labaiGeraBukle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="Gera" />
+
+    <Button
+        android:id="@+id/registruotiVartotojoAutoM"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/labaiBlogaBukle"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:text="Registruoti" />
+
+    <TextView
+        android:id="@+id/prisijungesUseris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="visible"/>
+
+</RelativeLayout>

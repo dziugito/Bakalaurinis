@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PlaceFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/adresas"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/ieskoti"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="60dp"
+        android:text="Ieškoti" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="7dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="4dp">
+        
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/zemelapis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="177dp"
+            android:layout_marginTop="167dp"
+            android:src="@drawable/pin" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/pazymetasAdresas"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="485dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Adresas" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Pažymėkite eismo įvykio vietą." />
+
+    <Button
+        android:id="@+id/kitasB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitas"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="290dp"/>
+
+
+
+</FrameLayout>

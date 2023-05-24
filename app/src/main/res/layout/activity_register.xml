@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/vardas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vardas"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/pavarde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pavardė"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/vardas"/>
+
+    <EditText
+        android:id="@+id/telefono_numeris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono numeris"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/pavarde"/>
+
+    <EditText
+        android:id="@+id/pastas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paštas"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/telefono_numeris"/>
+
+    <EditText
+        android:id="@+id/slaptazodis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slaptažodis"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/pastas"/>
+
+    <EditText
+        android:id="@+id/pakartoti_slaptazodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pakartoti slaptažodį"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="25dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/slaptazodis"/>
+    
+    <Button
+        android:id="@+id/registruotis_mygtukas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Registruotis"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/pakartoti_slaptazodi"
+        android:background="@drawable/mybutton"/>
+
+
+</RelativeLayout>

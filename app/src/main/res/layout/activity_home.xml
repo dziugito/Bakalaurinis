@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/useris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/vartotojo_profilis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Mano profilis"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/registruoti_eismo_ivyki"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Registruoti eismo įvykį"
+        android:layout_below="@+id/vartotojo_profilis"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/programos_administravimas"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Administravimas"
+        android:layout_below="@+id/registruoti_eismo_ivyki"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/atsijungti"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="600dp"
+        android:text="Atsijungti"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/mybutton"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DamageFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasirinkite automobilio pusę ir pažymėkite dalis, nukentėjusias per eismo įvykį"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/P"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="Priekis" />
+
+    <Button
+        android:id="@+id/K"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:text="Kairė" />
+
+    <Button
+        android:id="@+id/G"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:text="Galas" />
+
+    <Button
+        android:id="@+id/D"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="260dp"
+        android:text="Dešinė" />
+
+    <ListView
+        android:id="@+id/dalysList"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"/>
+
+    <ListView
+        android:id="@+id/pazymetosDalys"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="440dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/masinos_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pažymėkite apgadintas dalis:"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="410dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pažymėtos dalys:"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/kitasB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitas"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="290dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/selectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/ic_baseline_image_search_24" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Įkelkite eismo įvykio vietos nuotrauką, kad matytųsi automobilio apgadinimai." />
+
+    <Button
+        android:id="@+id/kitasB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kitas"
+        android:background="@drawable/mybutton"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="290dp"/>
+
+</FrameLayout>
